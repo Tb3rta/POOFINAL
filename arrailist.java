@@ -1,6 +1,10 @@
 import java.util.ArrayList;
 import java.util.Iterator;
+
 class arrailist{
+    /**
+     * @param args
+     */
     public static void main(String[]args){
     //     #definir un arraylist
     //     ArrayList<String> nombreArrayList= new ArrayList<String>();
@@ -16,18 +20,23 @@ class arrailist{
      
     
     // }
+
         ArrayList<String> nombreArrayList= new ArrayList<String>();
-        for (int i = 0; i <=10; i++) {
+        for (int i = 1; i <=10; i++) {
             nombreArrayList.add("elemento"+i);
 
         }
         //anadimos elemtnos en la posicion 5 del array
-        nombreArrayList.add(5,"elemento 5");
+        nombreArrayList.add(5,"elemento 6");
 
         //declaramos el iterador e imprimimos;
         // Un iterador es un objeto que nos permite recorrer una lista y presentar por pantalla todos sus elementos .
         //  Dispone de dos métodos clave para realizar esta operación hasNext() y next().
         Iterator<String> nombreIterator = nombreArrayList.iterator();
+        while(nombreIterator.hasNext()){
+            String elemento= nombreIterator.next();
+            System.out.println(elemento+"/");
+        }
 
 
     }
