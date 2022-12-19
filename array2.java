@@ -6,7 +6,6 @@
 // 1 leer valores enteros desde teclado y guarde arrailist, termina en -99(valor no se guarda)
 // mostrar arraylist, suma todos y media.
 // mostrar todos y cuantos son mayores que la media
-import java.net.Socket;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Iterator;
@@ -16,7 +15,6 @@ class array2{
         ArrayList <Integer> nuevoarray= leervalores();
         double suma = calculosuma(nuevoarray);
         double media = suma/nuevoarray.size();
-        mostrarvalores(nue)
     }
 
     //pedir por teclado los valores y guardarlos en el ArrayList
