@@ -1,4 +1,4 @@
-//Dada una cadena ingresada por teclado, indicar el largo y
+    //Dada una cadena ingresada por teclado, indicar el largo y
 //cantidad de veces que aparece la letra ‘a’ en la misma.
 import java.util.Scanner;
 class Ejercicio4 {
