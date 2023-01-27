@@ -1,3 +1,4 @@
+package arrays;
 
 // Crear un programa que permita introducir por línea de comandos 10
 // elementos de tipo entero en un arreglo, el programa deberá mostrar

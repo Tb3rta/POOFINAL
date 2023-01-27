@@ -1,3 +1,4 @@
+package arrays;
 // crear array de 100 posiciones
 // contiene numeros del 1 al 100
 // obtener suma todos y media

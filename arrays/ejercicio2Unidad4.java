@@ -1,3 +1,4 @@
+package arrays;
 // Dado un arreglo de enteros cuyos elementos son ingresados por teclado,
 // mostrar en pantalla el mayor y menor de ellos.
 import java.util.Scanner;

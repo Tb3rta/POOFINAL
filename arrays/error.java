@@ -1,3 +1,4 @@
+package arrays;
 import javax.sound.sampled.SourceDataLine;
 
 public class error {
